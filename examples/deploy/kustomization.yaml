@@ -3,7 +3,6 @@ kind: Kustomization
 
 resources:
 - ./rbac/
-- 00-namespace.yaml
 - update-agent-sa.yaml
 - update-agent.yaml
 - update-operator-sa.yaml
